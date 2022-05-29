@@ -4,6 +4,10 @@
 
 #include "lighting_technique.h"
 #include "util.h"
+#define _USE_MATH_DEFINES
+
+#include <cmath>
+#include <math.h>
 
 static const char* pVS = "                                                          \n\
 #version 330                                                                        \n\

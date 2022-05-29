@@ -1,6 +1,12 @@
+#define _USE_MATH_DEFINES
+
 #include <GL/freeglut.h>
 
 #include "camera.h"
+
+
+#include <cmath>
+#include <math.h>
 
 const static float STEP_SCALE = 0.1f;
 const static int MARGIN = 10;
